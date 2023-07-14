@@ -1,0 +1,366 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+body{
+ font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+ font-family: 'Bebas Neue', sans-serif;
+}
+a,a:hover{
+  text-decoration: none;
+}
+.header{
+  width:100%;
+  padding:40px 0px;
+  background: url("../images/bg.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header img{
+  width:100%;
+  
+  color:#3d2514;
+}
+.header .img-fluid{
+     width: 50px;
+     height:40px;
+    float: left;
+ margin:0px 15px 0px;
+}
+.header p{
+  font-size: 14px;
+  line-height: 1.7em;
+  font-weight:700;
+  color:#3d2514;
+  margin: 12px 0px 0px 20px;
+  text-transform: capitalize;
+}
+.header .navbar-nav .nav-item .nav-link{
+  font-size:     font-size: 18px;
+    font-weight: 600;
+    color: #3d2514;
+    margin: 0px 20px;
+    text-transform:uppercase;
+}
+.header .banner{
+  width:100%;
+  
+display:inline-block;
+
+}
+.header .banner .text{
+  width:100%;
+  margin:80px 0px 0px;
+}
+.header .banner .text h4{
+    font-size: 20px;
+    font-weight:400;
+    line-height:1.7em;
+    text-transform: uppercase;
+    borger: 2px dashbored;
+    border: 3px dashed;
+    padding: 5px 10px;
+     color: #3d2514;
+     margin:auto;
+}
+.header .banner .text h1{
+font-size: 70px;
+ color: #3d2514;
+    font-weight: 700;
+}
+.header .banner .text h2{
+font-size: 50px;
+ color: #3d2514;
+    font-weight: 700;
+}
+.header .banner img{
+      width: 800px;
+   
+}
+.feature{
+  width:100%;
+  padding:80px 0px;
+
+}
+
+.feature .card{
+  width:95%;
+ margin:0px 0px 35px;
+  
+}
+.feature .card .card-img-overlay{
+  width:100%;
+  margin:20px; 
+}
+
+.feature .card .card-img{
+  width:100%;
+ 
+}
+.feature .card h4{
+    font-size: 20px;
+    font-weight: 500;
+   
+    text-transform: uppercase;
+    color: #fff;
+}
+.feature .card h1{
+ font-size: 40px;
+    font-weight: 500;
+    
+    text-transform: uppercase;
+    color: #fff;
+}
+.testimonial{
+  width:100%;
+  padding:80px 0px;
+}
+.title{
+  width:100%;
+  text-align:center;
+}
+.testimonial .title .btn-light{
+    font-size: 16px;
+    line-height:1.7em;
+    color:#3d2514;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding:10px 25px;
+    background: #ffbf45;
+    border:0px;
+    border-radius:0px;
+    transition: 1s;
+}
+.testimonial .title .btn-light:hover{
+background:transparent;
+border:1px solid#3d2514;
+color:#ffbf45;
+}
+.testimonial .title .btn-light:focus{
+background:#000;
+color:#fff;
+}
+.testimonial .title h1{
+font-size: 65px;
+    line-height:1.2em;
+    color:#3d2514;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin:25px 0px 15px;
+ 
+   
+
+}
+.testimonial .title p{
+font-size: 18px;
+    line-height:1.7em;
+    color:#665446;
+    font-weight: 400;
+}
+.testimonial .inner-t{
+  width:100%;
+  text-align:center;
+  padding:80px 0px;
+}
+.testimonial .inner-t img{
+  margin:0px 0px 30px;
+      width: 350px;
+    height: 320px;
+  
+}
+.testimonial .inner-t h1{
+font-size: 35px;
+    line-height:1.3em;
+    color:#3d2514;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin:25px 0px 10px;
+}
+.testimonial .inner-t p{
+font-size: 16px;
+    line-height:1.7em;
+    color:#665446;
+    font-weight: 500;
+    letter-spacing: .5px;
+}
+.testimonial .inner-t .btn-danger{
+  background: #bf2121;
+  color:#fff;
+  text-transform:uppercase;
+  font-size:16px;
+  font-weight:700;
+  padding:10px 20px;
+  border:0px;
+  border-radius:0px;
+  margin:25px 0px 0px;
+  transition: 1s;
+
+}
+.testimonial .inner-t .btn-danger:hover{
+  color:#3d2514;
+  background: #ffbf45;
+}
+.testimonial .inner-t .btn-danger:focus{
+   color:#3d2514;
+  background: #ffbf45;
+}
+.discover{
+  width:100%;
+  padding:80px 0px;
+  background: #fff;
+  box-shadow:0px 20px 40px #dadada;
+}
+.discover .inner-discover{
+  padding:80px 0px ;
+}
+.discover .inner-discover h4{
+  font-size: 26px;
+  font-weight: 700;
+  line-height:1.7em;
+  color:#3d3d3d;
+  letter-spacing: 1px;
+}
+.discover .inner-discover h1{
+  font-size: 60px;
+  font-weight: 700;
+  line-height:1.7em;
+  color:#3d2514;
+  letter-spacing: 1px;
+}
+.discover .inner-discover p{
+  font-size: 18px;
+  font-weight: 500;
+  line-height:1.7em;
+  color:#3d3d3d;
+  letter-spacing: 1px;
+}
+.reservstion{
+  width:100%;
+  padding:80px 0px;
+  background:url("../images/t.png")center top no-repeat;
+  background-size:cover;
+}
+.reservstion .title{
+  width:100%;
+  padding:80px 0px 40px;
+}
+.reservstion .title h4{
+  color:#3d2514;
+  font-size:35px;
+  font-weight:600;
+  line-height:1.2em;
+  text-transform:uppercase;
+  letter-spacing: 1px;
+}
+.reservstion .title h1{
+  color:#3d2514;
+  font-size:65px;
+  font-weight:700;
+  line-height:1.2em;
+  text-transform:uppercase;
+  letter-spacing: 2px;
+}
+.reservstion .contact-form{
+  width:100%;
+  border:0px;
+}
+
+.reservstion .contact-form .md-3{
+  width:80%;
+  
+}
+.reservstion .contact-form .md-3 .form-control{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    margin: 25px;
+    text-transform:uppercase;
+    color:#3d3d3d;
+    border:1px solid#bebebe;
+    transition:1s;
+}
+.reservstion .contact-form .md-3 .form-control:hover{
+  color:#dadada;
+  background:#bf2222;
+ 
+  font-weight:700;
+  cursor: pointer;
+  
+
+}
+.footer{
+  width:100%;
+  padding:80px 0px;
+  background:url("../images/footer.png")center top no-repeat;
+  background-size:cover;
+}
+.footer .logo-footer{
+
+color:#fff;
+padding:0px 0px 20px;
+}
+.footer p{
+  font-size:14px;
+  font-weight:500;
+  line-height:1.7em;
+  color:#fff;
+  padding: 80px 0px;
+}
+.footer .address{
+  width:100%;
+padding: 80px 0px;
+
+}
+.footer .address .fa{
+  display: block;
+ font-size:20px;
+  color:#fff;
+  padding:5px 0px;
+  
+}
+.fa-map-marker:before{
+font-size:40px;
+}
+.fa-envelope:before{
+  font-size:25px;
+}
+.footer .address span{
+  font-size:15px;
+  line-height:1.7em;
+  font-weight:700;
+  margin:0px 0px 0px 25px;
+
+}
+.footer h6{
+  font-size:16px;
+  line-height:1.7em;
+  font-weight:600;
+  color:#fff;
+
+}
+.footer .social-icon{
+width:100%;
+
+}
+.footer .social-icon .fa{
+  float:right;
+border-radius:100%;
+background:#fff;
+font-size:20px;
+margin:0px 8px 0px;
+padding:5px;
+transition:1s;
+border:1px solid #fff;
+
+}
+.footer .social-icon .fa:hover{
+  background:transparent;
+  cursor:pointer;
+}
+.footer .social-icon .fa:focus{
+  background:transparent;
+  
+}
